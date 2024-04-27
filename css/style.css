@@ -1,0 +1,57 @@
+/* Style for a container with horizontal scrolling, if needed */
+.horizontal-scroll {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_bar {
+    background: linear-gradient(10deg, #000000 0%, #640808 50%, #c50505 100%); /* Gradient background from red to black to white */
+    box-shadow: 0 4px 6px rgba(197, 191, 191, 0.3); /* Shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding around the content */
+    margin-bottom: 1rem; /* Margin below the navbar */
+    color: rgb(255, 255, 255); /* Text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font styling */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 0.05rem; /* Space between letters */
+}
+
+.nav_bar {
+}
+.container {
+}
+.row {
+}
+.col-8 {
+}
+.col-4 {
+}
+.col-3.nav_logo {
+}
+.col-9 {
+}
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.img-size {
+    max-width: 100%; /* Maximum image width 100% of its container */
+    height: auto; /* Height is set automatically to maintain proportions */
+}
+.my_photo{
+    background: url(../image/sibears_red.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 440px;
+    height: 300px;
+    border-radius: 15px; /* Закругленные углы с радиусом 15 пикселей */
+}
+.title_photo {
+    text-align: center;
+}
